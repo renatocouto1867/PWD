@@ -12,19 +12,22 @@
 <body>
     <div id="divPrincipal">
         <section id="sectionCapa">
-            <img src="imagens/capa.png" alt="foto de capa">
+
+            <img srcset="imagens/mobile/capa.png 300w, imagens/capa.png 900w" sizes="(max-width: 909px) 300px,
+            (min-width: 910px) 900px,
+            800px" src="imagens/capa.png" alt="foto capa">
 
             <h1>Bem-vindo ao meu site!</h1>
-            
-        </section>   
-        
+
+        </section>
+
         <nav id="navMenu">
 
             <ul>
                 <li><button type="button" onclick="home()">HOME</button></li>
                 <li><button type="button" onclick="biografia()">BIOGRAFIA</button></li>
                 <li><button type="button" onclick="campanhas()">CAMPANHAS PUBLICITÁRIAS</button></li>
-                <li><button type="button" onclick="contato()">CONTATO</button></li>                
+                <li><button type="button" onclick="contato()">CONTATO</button></li>
             </ul>
 
         </nav>
@@ -35,8 +38,8 @@
             <p>
                 Selecione a opção desejada
             </p>
-            
-        </section>       
+
+        </section>
 
 
         <section id="sectionBiografia">
@@ -86,14 +89,24 @@
             <div id="divFotos">
                 <ul>
                     <li>
-                        <img src="imagens/foto1.png" alt="campanha inverno">
+                        <img srcset="imagens/mobile/foto1.png 300w, imagens/foto1.png 640w" sizes="(max-width: 909px) 300px,
+            (min-width: 910px) 640px,
+            800px" src="imagens/foto1.png" alt="campanha 1">                        
                     </li>
+
                     <li>
-                        <img src="imagens/foto2.png" alt="campanha inverno">
+                        <img srcset="imagens/mobile/foto2.png 300w, imagens/foto2.png 640w" sizes="(max-width: 909px) 300px,
+            (min-width: 910px) 640px,
+            800px" src="imagens/foto2.png" alt="campanha 2">
+                        
                     </li>
+
                     <li>
-                        <img src="imagens/foto3.png" alt="campanha inverno">
+                        <img srcset="imagens/mobile/foto3.png 300w, imagens/foto3.png 640w" sizes="(max-width: 909px) 300px,
+            (min-width: 910px) 640px,
+            800px" src="imagens/foto3.png" alt="campanha 3">
                     </li>
+                    
                 </ul>
             </div>
 
