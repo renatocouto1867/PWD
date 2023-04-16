@@ -45,7 +45,7 @@ h2{
 #navMenu li {
   list-style: none;
   background-color: var(--cor-menu);
-  width: 25%;
+  min-width: 20%;
 }
 
 #navMenu button {
